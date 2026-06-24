@@ -222,7 +222,7 @@ class Faculty extends StatelessWidget {
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              Text("Biotechnology", style: TextStyle(fontSize: 17)),
+                              ("Biotechnology", style: TextStyle(fontSize: 17)),
                               Text("Bus No: 3", style: TextStyle(fontSize: 17)),
                             ],
                           ),
@@ -235,22 +235,7 @@ class Faculty extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 12),
                   child: Card(
-                    child: Padding(
-                      padding: EdgeInsets.all(12),
-                      child: Row(
-                        children: [
-                          CircleAvatar(radius: 25, child: Icon(Icons.person)),
-                          SizedBox(width: 15),
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                "Nandhu",
-                                style: TextStyle(
-                                  fontSize: 20,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
+
                               Text("Mechanical", style: TextStyle(fontSize: 17)),
                               Text(
                                 "Bus No: 10",
@@ -283,8 +268,7 @@ class Faculty extends StatelessWidget {
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              Text("MBA", style: TextStyle(fontSize: 17)),
-                              Text("Bus No: 7", style: TextStyle(fontSize: 17)),
+                             
                             ],
                           ),
                         ],
